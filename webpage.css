@@ -1,0 +1,137 @@
+/* Universal selector */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+	color: white;
+	background-color: darkred;
+	text-align: center;
+	padding: 15px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.tagline {
+	font-style: italic;
+}
+
+/* Section title */
+.section-title {
+	color: darkgreen;
+	text-decoration: underline;
+	margin: 20px;
+}
+
+p {
+	padding-left: 20px;
+}
+
+/* Table styling */
+table {
+	border-collapse: collapse;
+	width: 80%;
+	margin: 0 auto 20px;
+}
+
+td {
+	text-align: center;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+th {
+	color: white;
+	background-color: #f4a261;
+	text-align: center;
+	border: 2px solid black;
+	padding: 10px;
+}
+
+/* nth-child row colors */
+tr:nth-child(even) {
+	background-color: #d3d3d3;
+}
+
+/* Item names and prices */
+.item-name {
+	text-align: left;
+	padding-left: 10px;
+}
+
+.price {
+	color: darkblue;
+	font-weight: bold;
+}
+
+/* Hover effect on table rows */
+tr:hover {
+	background-color: #ffe5b4;
+	opacity: 0.9;
+}
+
+/* Specials list */
+ul {
+	list-style: square;
+	margin: 20px;
+	padding-left: 40px;
+}
+
+ul li {
+	padding: 5px 0;
+}
+
+ul li:hover {
+	color: darkred;
+}
+
+form {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #ffe5b4;
+	border: 2px solid brown;
+	padding-left: 20px;
+}
+
+form label {
+	font-weight: bold;
+	color: darkgreen;
+}
+
+form input,
+form textarea {
+	width: 80%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid darkred;
+	border-radius: 6px;
+	font-size: 14px;
+}
+
+form button {
+	background-color: darkred;
+	color: white;
+	padding: 10px 20px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+}
+
+form button:hover {
+	background-color: #a30000;
+}
+
+/* Footer */
+#footer {
+	color: white;
+	background-color: darkred;
+	text-align: center;
+	padding: 10px;
+	margin-top: 20px;
+}
